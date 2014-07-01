@@ -10,9 +10,9 @@ public class WhiteBelt2 {
         LocalDateTime now = LocalDateTime.now();
         System.out.println("It is now :"+now);
          
-        LocalDateTime tenMinutesFromNow = now.plus(10, ChronoUnit.MINUTES);
+        LocalDateTime temDaysFromNow = now.plus(10, ChronoUnit.DAYS);
          
         System.out.println("Now did not change, it is immutable (will never change) :"+now);       
-        System.out.println("Ten minutes from now is "+tenMinutesFromNow);
+        System.out.println("Ten days from now is "+temDaysFromNow);
     }
 }
