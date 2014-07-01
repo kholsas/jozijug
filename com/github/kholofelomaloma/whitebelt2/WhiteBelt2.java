@@ -8,7 +8,7 @@ public class WhiteBelt2 {
  
     public static void main(String[] args) {
         LocalDateTime now = LocalDateTime.now();
-        System.out.println("It is now :"+now);
+        System.out.println("The time is :"+now);
          
         LocalDateTime temDaysFromNow = now.plus(10, ChronoUnit.DAYS);
          
